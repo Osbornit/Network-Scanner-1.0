@@ -77,6 +77,7 @@ def vendor_lookup_worker():
 
             # Signal that this task is complete
             lookup_queue.task_done()
+            time.sleep(1.5)
 
         except Exception as e:
             print(f"[!] Error in worker thread: {e}", file=sys.stderr)
