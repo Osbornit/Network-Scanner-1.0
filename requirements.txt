@@ -1,5 +1,1 @@
-scapy 
-
-netifaces 
-
-requests
+scapy netifaces requests
